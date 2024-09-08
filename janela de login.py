@@ -1,0 +1,13 @@
+from tkinter import*
+jn=Tk()
+lb1=Label(jn,text='Login')
+lb1.grid(column=0,row=0)
+lb2=Label(jn,text='Senha')
+lb2.grid(column=0,row=1)
+en1=Entry(jn)
+en1.grid(column=1,row=0,padx=(20,20),pady=(20,20))
+en2=Entry(jn)
+en2.grid(column=1,row=1)
+bt=Button(jn,text='Avançar')
+bt.grid(column=0,row=2,columnspan=2)
+jn.mainloop()
