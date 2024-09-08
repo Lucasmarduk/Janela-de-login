@@ -1,5 +1,5 @@
 from tkinter import*
-jn=Tk()
+jn=Login()
 lb1=Label(jn,text='Login')
 lb1.grid(column=0,row=0)
 lb2=Label(jn,text='Senha')
